@@ -1,0 +1,352 @@
+demens@demensUbuntu:~/Documents/CS341$ ./a.out
+Project 1 for CS 341
+Semester:  Fall 2018
+Written by:
+Afreen Hameed, ah453@njit.edu
+Instructor:  Marvin Nakayama, marvin@njit.edu
+
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:y
+www.commercial.com
+y
+www.co.com
+y
+www.x.com
+y
+njit.co
+y
+wwww.stanford.com
+y
+www.com.com
+y
+ww.com.com
+y
+co.co
+y
+www.co.com.co
+y
+www.com
+y
+www.co
+y
+www.com.comp
+y
+wwwb.com.co
+y
+www..com
+y
+www.abcd.co
+y
+www.company.co.com
+y
+company.com.co
+y
+www.co.com.co
+y
+www.com.com.co
+y
+www.co.co
+nPlease enter a string: The string is: www.commercial.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+m --> q6 
+e --> q6 
+r --> q6 
+c --> q6 
+i --> q6 
+a --> q6 
+l --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+The DFA recognizes the string: www.commercial.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.co.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+The DFA recognizes the string: www.co.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.x.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+x --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+The DFA recognizes the string: www.x.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: njit.co
+
+q1
+n --> q6 
+j --> q6 
+i --> q6 
+t --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: njit.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: wwww.stanford.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+w --> q6 
+. --> q7 
+s --> trap state
+t --> trap state
+a --> trap state
+n --> trap state
+f --> trap state
+o --> trap state
+r --> trap state
+d --> trap state
+. --> trap state
+c --> trap state
+o --> trap state
+m --> trap state
+The DFA doesn't recognize the string:  wwww.stanford.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.com.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+The DFA recognizes the string: www.com.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: ww.com.com
+
+q1
+w --> q2 
+w --> q3 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> trap state
+The DFA doesn't recognize the string:  ww.com.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: co.co
+
+q1
+c --> q6 
+o --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: co.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.co.com.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: www.co.com.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+The DFA doesn't recognize the string:  www.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+The DFA doesn't recognize the string:  www.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.com.comp
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+p --> trap state
+The DFA doesn't recognize the string:  www.com.comp
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: wwwb.com.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+b --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: wwwb.com.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www..com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+. --> trap state
+c --> trap state
+o --> trap state
+m --> trap state
+The DFA doesn't recognize the string:  www..com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.abcd.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+a --> q6 
+b --> q6 
+c --> q6 
+d --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: www.abcd.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.company.co.com
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+p --> q6 
+a --> q6 
+n --> q6 
+y --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+. --> trap state
+c --> trap state
+o --> trap state
+m --> trap state
+The DFA doesn't recognize the string:  www.company.co.com
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: company.com.co
+
+q1
+c --> q6 
+o --> q6 
+m --> q6 
+p --> q6 
+a --> q6 
+n --> q6 
+y --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: company.com.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.co.com.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: www.co.com.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.com.com.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+m --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+m --> q7 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: www.com.com.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:Please enter a string: The string is: www.co.co
+
+q1
+w --> q2 
+w --> q3 
+w --> q4 
+. --> q5 
+c --> q6 
+o --> q6 
+. --> q7 
+c --> q7 
+o --> q7 
+The DFA recognizes the string: www.co.co
+Do you want to enter a string? Enter 'y' for YES and 'n' for NO:n
+Program will terminate. Bye!
