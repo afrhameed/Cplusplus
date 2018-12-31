@@ -1,6 +1,6 @@
 # Cplusplus
 
-This file contains a collection of C and C++ projects
+This file contains a collection of C and C++ miniprojects
 Here is a short explanation of the code:
 
 1)btof.c
