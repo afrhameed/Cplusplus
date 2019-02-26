@@ -1,0 +1,6 @@
+data/obj/train/DJI_0146.JPG
+data/obj/train/DJI_0148.JPG
+data/obj/train/DJI_0149.JPG
+data/obj/train/DJI_0145.JPG
+data/obj/train/DJI_0150.JPG
+data/obj/train/DJI_0147.JPG

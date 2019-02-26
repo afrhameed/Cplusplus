@@ -1,0 +1,2 @@
+data/obj/test/DJI_0143.JPG
+data/obj/test/DJI_0144.JPG
